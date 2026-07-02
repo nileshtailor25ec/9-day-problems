@@ -1,0 +1,12 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int main() {
+    vector<int> vec = {3, 7, 2, 9, 5};
+    int minVal = *min_element(vec.begin(), vec.end());
+    cout << minVal;
+    return 0;
+}
+
+Result-2
